@@ -21,7 +21,7 @@ public class AiService(IOptions<AiServiceOptions> options) : IAiService
                 new MessageCreateParams
                 {
                     Model = ModelId,
-                    MaxTokens = 64,
+                    MaxTokens = 2048,
                     System = new List<TextBlockParam>
                     {
                         new() { Text = systemPrompt, CacheControl = new CacheControlEphemeral() },
