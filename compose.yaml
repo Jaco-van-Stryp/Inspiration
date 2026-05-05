@@ -1,0 +1,7 @@
+﻿services:
+  insparation:
+    image: insparation
+    build:
+      context: .
+      dockerfile: Insparation/Dockerfile
+
