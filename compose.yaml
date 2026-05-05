@@ -1,7 +1,7 @@
 ﻿services:
-  insparation:
-    image: insparation
+  Inspiration:
+    image: Inspiration
     build:
       context: .
-      dockerfile: Insparation/Dockerfile
+      dockerfile: Inspiration/Dockerfile
 

@@ -2,7 +2,7 @@ using Anthropic;
 using Anthropic.Models.Messages;
 using Microsoft.Extensions.Options;
 
-namespace Insparation.Services.AIService;
+namespace Inspiration.Services.AIService;
 
 public class AiService(IOptions<AiServiceOptions> options) : IAiService
 {

@@ -21,7 +21,7 @@
         </ItemGroup>
     
         <ItemGroup>
-          <Folder Include="Features\GenerateDetailedInsparation\" />
+          <Folder Include="Features\GenerateDetailedInspiration\" />
         </ItemGroup>
     
     </Project>

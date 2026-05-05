@@ -1,4 +1,4 @@
-namespace Insparation.Services.AIService;
+namespace Inspiration.Services.AIService;
 
 public interface IAiService
 {

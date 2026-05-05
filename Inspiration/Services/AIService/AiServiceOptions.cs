@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Insparation.Services.AIService;
+namespace Inspiration.Services.AIService;
 
 public class AiServiceOptions
 {

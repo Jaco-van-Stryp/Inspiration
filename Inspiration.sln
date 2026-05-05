@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Insparation", "Insparation\Insparation.csproj", "{10992408-4572-4B0F-A2D7-E9C3BD026F88}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inspiration", "Inspiration\Inspiration.csproj", "{10992408-4572-4B0F-A2D7-E9C3BD026F88}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DDD98BF8-5B61-46E5-B209-91AC9D642395}"
 	ProjectSection(SolutionItems) = preProject

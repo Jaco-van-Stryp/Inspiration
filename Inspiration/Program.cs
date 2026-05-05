@@ -1,5 +1,5 @@
-using Insparation.Features.GenerateInsparation;
-using Insparation.Services.AIService;
+using Inspiration.Features.GenerateInspiration;
+using Inspiration.Services.AIService;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -20,6 +20,6 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-app.MapGenerateInsparationEndpoint();
+app.MapGenerateInspirationEndpoint();
 app.Run();
 
