@@ -11,15 +11,26 @@ builder
     .BindConfiguration("AiService")
     .ValidateDataAnnotations()
     .ValidateOnStart();
+
+builder.Services.AddCors(options =>
+{
+    options.AddDefaultPolicy(policy =>
+    {
+        policy
+            .AllowAnyOrigin()
+            .AllowAnyHeader()
+            .AllowAnyMethod();
+    });
+});
+
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
 }
 
+app.UseCors();
 app.UseHttpsRedirection();
 app.MapGenerateInspirationEndpoint();
 app.Run();
-

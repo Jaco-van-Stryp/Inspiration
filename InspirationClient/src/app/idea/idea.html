@@ -1,0 +1,19 @@
+<p-card styleClass="h-full">
+  <div class="flex flex-col gap-4">
+    <div class="flex items-start gap-3">
+      <div
+        class="shrink-0 w-9 h-9 rounded-lg flex items-center justify-center"
+        style="background: color-mix(in srgb, var(--p-primary-color) 15%, transparent)"
+        aria-hidden="true"
+      >
+        <i class="pi pi-lightbulb text-sm" style="color: var(--p-primary-color)"></i>
+      </div>
+      <h3 class="font-semibold text-base leading-snug pt-1.5">
+        {{ inspirationIdea().idea }}
+      </h3>
+    </div>
+    <p class="text-sm leading-relaxed pl-12 opacity-70">
+      {{ inspirationIdea().description }}
+    </p>
+  </div>
+</p-card>
